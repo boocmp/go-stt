@@ -152,7 +152,7 @@ func (hs *Handlers)CreateHandlerForRequest(req *http.Request) (*Handler, string)
 var handlers Handlers
 
 func run(c* cli.Context) error {
-	if m, err := whisper.LoadWhisperModel("/app/models/ggml-base.bin"); err != nil {
+	if m, err := whisper.LoadWhisperModel("/app/models/ggml-model.bin"); err != nil {
 		return err
         } else {
 		model = m

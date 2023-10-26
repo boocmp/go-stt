@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	azul3d.org/engine v0.0.0-20211024043305-793ea6c2839d
-	github.com/boocmp/whisper.cpp/bindings/go v0.0.0-20230829142649-037e9f273963
+	github.com/boocmp/whisper.cpp/bindings/go v0.0.0-20231025140814-ef5e83d3ea69
 	github.com/golang/protobuf v1.5.3
 	github.com/rs/zerolog v1.30.0
 	github.com/urfave/cli/v2 v2.25.7

@@ -4,7 +4,7 @@ GOFILES := $(shell find . -name "*.go" -type f)
 HAS_GO = $(shell hash $(GO) > /dev/null 2>&1 && echo "GO" || echo "NOGO" )
 
 ifneq ($(shell uname), Darwin)
-	EXTLDFLAGS = -extldflags "-static" $(null)
+	EXTLDFLAGS = -extldflags $(null)
 else
 	EXTLDFLAGS =
 endif

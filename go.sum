@@ -1,7 +1,7 @@
 azul3d.org/engine v0.0.0-20211024043305-793ea6c2839d h1:oLr8Nu7iEKm8OKfHNznBnBj8Z/SKBa20yl7JKqJn4W8=
 azul3d.org/engine v0.0.0-20211024043305-793ea6c2839d/go.mod h1:3y1cwzJTKvXXop+EAg+AUVfNm3bfHf3djeX+l1UBuUE=
-github.com/boocmp/whisper.cpp/bindings/go v0.0.0-20230829142649-037e9f273963 h1:9wbZzD3xYDHKj/rhDJBW43lkB6wzawIVDKQrZ7ACa9Q=
-github.com/boocmp/whisper.cpp/bindings/go v0.0.0-20230829142649-037e9f273963/go.mod h1:qgAsf/5rd4F3VBtkMpKFxb7oY4NaR8aigtj2jgO/Es0=
+github.com/boocmp/whisper.cpp/bindings/go v0.0.0-20231025140814-ef5e83d3ea69 h1:7KZnjoDN/iOB42rd48Rq/QnoEyeVNm4xbMHYaD3cEWY=
+github.com/boocmp/whisper.cpp/bindings/go v0.0.0-20231025140814-ef5e83d3ea69/go.mod h1:qgAsf/5rd4F3VBtkMpKFxb7oY4NaR8aigtj2jgO/Es0=
 github.com/coreos/go-systemd/v22 v22.5.0/go.mod h1:Y58oyj3AT4RCenI/lSvhwexgC+NSVTIJ3seZv2GcEnc=
 github.com/cpuguy83/go-md2man/v2 v2.0.2 h1:p1EgwI/C7NhT0JmVkwCD2ZBK8j4aeHQX2pMHHBfMQ6w=
 github.com/cpuguy83/go-md2man/v2 v2.0.2/go.mod h1:tgQtvFlXSQOSOSIRvRPT7W67SCa46tRHOmNcaadrF8o=

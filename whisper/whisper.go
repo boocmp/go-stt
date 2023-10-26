@@ -73,9 +73,7 @@ func (t* Transcriber) Process() {
 				t.Done <- true
 			case samples := <-t.Audio:								
 				t.data = append(t.data, samples...)
-				log.Info().Msgf("Whisper buffer size %d", len(t.data))
 			default:
-				log.Info().Msgf("Whisper processing %d", len(t.data))
 				results, err := t.process(false)
 				if err == nil {
 					t.Results <- results
@@ -100,13 +98,11 @@ func (t *Transcriber) process(force_final bool) ([]TextResult, error) {
 	if segments, err := t.ctx.Process(t.state, t.data); err != nil {
 		return nil,  err
 	} else {
-		log.Info().Msgf("%d", len(segments))
 		for _, segment := range segments {
 			text := segment.Text
 			if text == "" {
 				continue
 			}
-			log.Info().Msgf(text)
 			if !force_final && buffer_time < MAX_BUFFER_TIME {
 				result = append(result, TextResult{ Text: " " + text, Final: false, })
 			} else {
